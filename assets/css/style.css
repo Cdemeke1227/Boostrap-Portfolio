@@ -1,0 +1,181 @@
+/* HW Basic Portfolio - Christopher Demeke */
+/*****************************/
+/*****************************/
+body {
+    background: #dddddd;
+}
+
+/*****************************/
+/*****************************/
+.container {
+    height: 90px;
+    border-bottom: 2px solid #cccccc;
+}
+.navbar-header {
+    background: #4aaaa5;
+    padding: 30px;
+    height: 90px;
+    margin-left: 130px;
+    margin-right: 360px;
+}
+.collapse {
+    height: 90px;
+}
+.nav-link {
+    color: #cccccc;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+/*****************************/
+/*****************************/
+.wrapper {
+    background-image: url("../images/circles-light/circles-light.png");
+    height: 1030px;
+    }
+/*****************************/
+/*****************************/
+
+/*****************************/
+/*****************************/
+.contentBackdrop {
+    background-color: #ffffff;
+    background: #ffffff;  
+    border:  1px solid #dddddd;
+}
+
+.pageContent {
+     /* margin-left: 60px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 30px;
+    border-bottom:  1px solid #dddddd;
+   
+}
+
+#bioImage {
+    height: 100px;
+}
+/*****************************/
+/*****************************/
+
+/*****************************/
+/*****************************/
+.connectIcon {
+    width: 60px;
+    height: 60px;
+}
+/*****************************/
+/*****************************/
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 5px solid #4aaaa5;
+    background-color: #666666;
+    height: 80px;
+    width: 100%;
+}
+.footText {
+    padding: 30px;
+}
+/*****************************/
+/*****************************/
+
+/*****************************/
+/* Contact Section */
+/*****************************/
+form {
+    margin-left: 10%;
+    width: 100%;
+}
+FormControlTextarea {
+    height: 300px;
+}
+.btn-primary {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+    margin-bottom: 20px;
+}
+/*****************************/
+/*****************************/
+
+
+/*****************************/
+/*****************************/
+.box {
+    float: left;
+    width: 275px;
+    height: 205px;
+    margin: 20px;
+}
+#image1 {
+    position: relative;
+}
+
+#image2 {
+    position: relative;
+}
+
+#image3 {
+    position: relative;
+}
+
+#image4 {
+    position: relative;
+}
+
+#image5 {
+    position: relative;
+}
+
+/*****************************/
+/*****************************/
+h1 {
+    font-family: 'Georgia';
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+h2 {
+    font-family: 'Georgia';
+    font-size: 26px;
+    text-align: left;
+    color: #4aaaa5;
+}
+
+h3 {
+    font-family: 'Georgia';
+    font-size: 20px;
+    text-align: left;
+    color: #4aaaa5;
+}
+
+h4 {
+    font-family: 'Georgia';
+    font-size: 16px;
+    text-align: center;
+    color: #cccccc;
+}
+h5 {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 275px;
+    height: 40px;
+    margin-left: 20px;
+    font-family: 'Georgia';
+    font-size: 14px;
+    text-align: center;
+    background: #4aaaa5;
+    padding: 10px;
+    color: #ffffff;
+}
+
+p {
+    font-family: Sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #666666;
+    }
+    
