@@ -19,11 +19,11 @@
     <nav class="navbar navbar-light bg-light navbar-expand-lg sticky-top">
         <div class="container hdr">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="./index.html">
                     <h1>Christopher Demeke</h1>
                 </a>
             </div>
-            <div class="collapse navbar-collapse justify-content-end" id="bs-example-navbar-collapse-1">
+            <div class="navbar-expand{-sm|-md|-lg|-xl} justify-content-end" id="responsiveNavbar">
                 <ul class="nav">
                     <li class="nav-item">
                         <a class="nav-link active" href="./index.html">About</a>
@@ -41,19 +41,16 @@
 
 
     <!-- Container contains all page content-->
-    <div class="container wrapper">
+    <div class="container">
         <!-- Row 1 ***************** -->
         <div class="row">
-            <div class=" col-md-1">
-
-            </div>
-            <div class="col-md-7 contentBackdrop">
+            <div class="col-md-8 contentBackdrop">
                 <div class="pageContent">
                     <h2>Contact</h2>
                 </div>
-                <div class="col-md-10">
-                    <div class="row ">
-
+                <!-- Row 1.1 ***************** -->
+                <div class="row ">
+                    <div class="col-md-12 ">
 
                         <form>
                             <div class="form-group">
@@ -63,13 +60,13 @@
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
-                                
+
                             </div>
 
                             <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea" rows="3"></textarea>
-                                  </div>
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea" rows="3"></textarea>
+                            </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
 
@@ -97,10 +94,8 @@
                     </div>
                 </div>
             </div>
-            <div class=" col-md-1">
 
-            </div>
-            <div clas="col=md-3 ">
+            <div class="col-md-4 ">
                 <div class="card ">
                     <div class="card-header ">
                         <h3>Connect with Me</h3>
@@ -121,22 +116,17 @@
                 </div>
             </div>
         </div>
+
         <!-- Row 1 End ***************** -->
 
-        <!-- Row Footer ***************** -->
 
-        <div class="row ">
-            <!-- <div class="col-md-12 "> -->
-            <footer>
-                <div class="footText ">
-                    <h4> &copy; Copyright 2018 Christopher Demeke</h4>
-                </div>
-            </footer>
-            <!-- </div> -->
-        </div>
-        <!-- Row Footer End ***************** -->
     </div>
-
+    <footer>
+        <div class="footText ">
+            <h4> &copy; Copyright 2018 Christopher Demeke</h4>
+        </div>
+    </footer>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "

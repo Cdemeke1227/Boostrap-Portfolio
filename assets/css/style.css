@@ -2,39 +2,28 @@
 /*****************************/
 /*****************************/
 body {
-    background: #dddddd;
+    background-image: url("../images/circles-light/circles-light.png");
 }
 
 /*****************************/
 /*****************************/
 .container {
-    height: 90px;
     border-bottom: 2px solid #cccccc;
+    margin-top: 10px;
 }
+
 .navbar-header {
     background: #4aaaa5;
     padding: 30px;
     height: 90px;
-    margin-left: 130px;
-    margin-right: 360px;
 }
-.collapse {
-    height: 90px;
-}
+
 .nav-link {
     color: #cccccc;
     text-decoration: none;
     font-family: Helvetica;
     font-size: 18px;
 }
-/*****************************/
-/*****************************/
-.wrapper {
-    background-image: url("../images/circles-light/circles-light.png");
-    height: 1030px;
-    }
-/*****************************/
-/*****************************/
 
 /*****************************/
 /*****************************/
@@ -42,39 +31,41 @@ body {
     background-color: #ffffff;
     background: #ffffff;  
     border:  1px solid #dddddd;
+    margin-bottom: 10px;
 }
 
 .pageContent {
-     /* margin-left: 60px; */
     margin-top: 30px;
     margin-bottom: 30px;
     height: 30px;
     border-bottom:  1px solid #dddddd;
-   
+
 }
 
 #bioImage {
-    height: 100px;
+    height: 8rem;
+    width: 8rem;
 }
 /*****************************/
 /*****************************/
 
 /*****************************/
 /*****************************/
+.card {
+    margin-bottom: 20px;
+}
 .connectIcon {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
 }
 /*****************************/
 /*****************************/
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
     border-top: 5px solid #4aaaa5;
     background-color: #666666;
     height: 80px;
     width: 100%;
+   
 }
 .footText {
     padding: 30px;
@@ -86,12 +77,10 @@ footer {
 /* Contact Section */
 /*****************************/
 form {
-    margin-left: 10%;
+    
     width: 100%;
 }
-FormControlTextarea {
-    height: 300px;
-}
+
 .btn-primary {
     background-color: #4aaaa5;
     border-color: #4aaaa5;
@@ -105,10 +94,11 @@ FormControlTextarea {
 /*****************************/
 .box {
     float: left;
-    width: 275px;
-    height: 205px;
-    margin: 20px;
+    width: 10rem;
+    height: 10rem;
+    margin: .5rem;
 }
+
 #image1 {
     position: relative;
 }
@@ -133,49 +123,49 @@ FormControlTextarea {
 /*****************************/
 h1 {
     font-family: 'Georgia';
-    font-size: 28px;
+    font-size: 1.8rem;
     text-align: center;
     color: #ffffff;
 }
 h2 {
     font-family: 'Georgia';
-    font-size: 26px;
+    font-size: 1.7rem;
     text-align: left;
     color: #4aaaa5;
 }
 
 h3 {
     font-family: 'Georgia';
-    font-size: 20px;
+    font-size: 1.3rem;
     text-align: left;
     color: #4aaaa5;
 }
 
 h4 {
     font-family: 'Georgia';
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     color: #cccccc;
 }
 h5 {
     position: absolute;
-    top: 150px;
+    top: 8rem;
     left: 0;
-    width: 275px;
-    height: 40px;
-    margin-left: 20px;
+    width: 10rem;
+    height: 2rem;
+    margin-left: 0.5rem;
     font-family: 'Georgia';
-    font-size: 14px;
+    font-size: .90rem;
     text-align: center;
     background: #4aaaa5;
-    padding: 10px;
+    padding: 0.5rem;
     color: #ffffff;
 }
 
 p {
     font-family: Sans-serif;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     color: #666666;
     }
     
